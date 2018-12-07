@@ -2,7 +2,7 @@ package svt;
 
 public class ConsoleOutput implements Output {
     @Override
-    public void showResult(String result) {
+    public void showResult(int result) {
         System.out.printf("Результат: "+ result);
     }
 }
