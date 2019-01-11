@@ -8,5 +8,8 @@ public class Main {
         String[] values=consoleInput.getValues();
         int result=operation.add(values[0],values[1]);
         consoleOutput.showResult(result);
+        values=consoleInput.getValues();
+        result=operation.subtraction(values[0],values[1]);
+        consoleOutput.showResult(result);
     }
 }

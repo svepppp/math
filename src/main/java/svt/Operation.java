@@ -6,4 +6,8 @@ public class Operation {
     public int add(String number1, String number2) {
         return Integer.parseInt(number1) + Integer.parseInt(number2);
     }
+
+    public int subtraction(String number1, String number2) {
+        return Integer.parseInt(number1) - Integer.parseInt(number2);
+    }
 }
